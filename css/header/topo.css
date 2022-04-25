@@ -1,0 +1,32 @@
+.navegacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+    width: var(--largura-home);
+    margin: auto;
+}
+
+.navegacao_nome__icone {
+    max-height: 22px;
+    vertical-align: middle;
+    padding-right: 9px;
+}
+
+.navegacao_nome {
+    display: block;
+}
+
+.navegacao_nome,
+.navegacao_links__link {
+    text-decoration: none;
+    color: black;
+}
+
+.navegacao_links__link {
+    margin-right: 5px;
+}
+
+.navegacao_links__link:hover {
+    font-weight: 700;
+    color: #053e8c;
+}
