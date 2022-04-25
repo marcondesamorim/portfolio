@@ -7,17 +7,17 @@
 
 .apresentacao_conteudo__titulo {
     font-weight: 700;
-    font-size: 52px;
+    font-size: 4rem;
 }
 
 .apresentacao_conteudo__texto {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 
 .apresentacao_conteudo__titulo,
 .apresentacao_conteudo__texto {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.5 rem;
 }
 
 .apresentacao_conteudo__medias {
@@ -40,8 +40,8 @@
 }
 
 .apresentacao_imagem__arquivo {
-    max-height: 368px;
-    max-width: 368px;
+    height: 25rem;
+    width: 25rem;
     border-radius: 50%;
     display: block;
 }

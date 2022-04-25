@@ -1,0 +1,13 @@
+.sobre {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: var(--largura-home);
+    background-color: #EAF2FD;
+}
+
+.sobre_assinatura {
+    width: 3rem;
+    height: 3rem;
+}
