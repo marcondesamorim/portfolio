@@ -1,13 +1,32 @@
 .sobre {
-    margin: auto;
+    margin: 0 auto;
+    background-color: #EAF2FD;
+    /* background-color: #6887b1; */
+}
+
+.sobre_conteudo {
+    margin: 0 auto;
+    width: var(--largura-home);
+    padding: 2.5rem 2.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: var(--largura-home);
-    background-color: #EAF2FD;
 }
 
-.sobre_assinatura {
-    width: 3rem;
-    height: 3rem;
+
+.sobre_conteudo__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.sobre_conteudo__texto {
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: justify;
+    /* margin-bottom: 1.5rem; */
+}
+
+.sobre_conteudo__assinatura {
+    width: 7%;
 }

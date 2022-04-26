@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marcondes Amorim Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/header/topo.css" />
+    <link rel="stylesheet" href="./css/header/navegacao.css" />
     <link rel="stylesheet" href="./css/header/apresentacao.css" />
     <link rel="stylesheet" href="./css/sobre.css">
 </head>
@@ -21,7 +22,7 @@
                 <object data="./images/sparkle24dp.svg" class="navegacao_nome__icone"></object>
                 <span class="navegacao_nome__texto">Marcondes Amorim</span>
             </div>
-            <nav class="navegacao__links">
+            <nav class="navegacao_links">
                 <a href="#sobre-mim" class="navegacao_links__link">Sobre Mim</a>
                 <a href="#skills" class="navegacao_links__link">Skills</a>
                 <a href="#hobbies" class="navegacao_links__link">Hobbies</a>
@@ -36,40 +37,49 @@
                 <h1 class="apresentacao_conteudo__titulo">Olá, meu nome é Marcondes Amorim e sou um escritor de código
                     fonte.</h1>
 
-                <p1 class="apresentacao_conteudo__texto">Me formei na Universidade Federal de Campina Grande como
-                    Bacharel em Ciência da Computação.</p1>
+                <div class="apresentacao_conteudo__texto">Me formei na Universidade Federal de Campina Grande como
+                    Bacharel em Ciência da Computação.</div>
 
                 <nav class="apresentacao_conteudo__medias">
-                    <a class="apresentacao_conteudo__medias___media" href="https://www.linkedin.com/in/marcondesamorim/"
-                        target="_blank">LinkedIn</a>
-                    <img class="apresentacao_conteudo__medias_seta" src="./images/arrow-media.png"
-                        alt="imagem de uma seta">
-                    <a class="apresentacao_conteudo__medias___media" href="https://github.com/MarcondesAmorim"
-                        target="_blank">GitHub</a>
-                    <img class="apresentacao_conteudo__medias_seta" src="./images/arrow-media.png"
-                        alt="imagem de uma seta">
-                    <a class="apresentacao_conteudo__medias___media" href="#" target="_blank">Currículo</a>
-                    <img class="apresentacao_conteudo__medias_seta" src="./images/arrow-media.png"
-                        alt="imagem de uma seta">
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/marcondesamorim/" target="_blank">LinkedIn</a>
+                            <img src="./images/arrow-media.png" alt="imagem de uma seta">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/MarcondesAmorim" target="_blank">GitHub</a>
+                            <img src="./images/arrow-media.png" alt="imagem de uma seta">
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">Currículo</a>
+                            <img src="./images/arrow-media.png" alt="imagem de uma seta">
+                        </li>
+                    </ul>
                 </nav>
             </div>
-            <div class="apresentacao_imagem">
-                <img class="apresentacao_imagem__arquivo" src="./images/me.png" alt="foto de marcondes amorim" />
-            </div>
+            <img class="apresentacao_foto-perfil" src="./images/me.png" alt="foto de marcondes amorim" />
         </section>
     </header>
     <main>
         <section class="sobre">
-            <h1 class="spbre_titulo">Sobre mim</h1>
-            <p class="sobre_texto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper
-                dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut
-                semper sagittis ligula et lacinia.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-                velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium.
-                Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas
-                metus vitae, aliquet metus.
-            </p>
-            <img class="sobre_assinatura" src="./images/assinatura.png" alt="imagem de uma assinatura">
+            <div class="sobre_conteudo">
+                <h1 class="sobre_conteudo__titulo">Sobre mim</h1>
+                <div class="sobre_conteudo__texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper
+                    dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut
+                    semper sagittis ligula et lacinia.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Pellentesque
+                    velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis
+                    pretium.
+                    Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas
+                    metus vitae, aliquet metus.
+                </div>
+                <img class="sobre_conteudo__assinatura" src="./images/assinatura.png" alt="">
+            </div>
         </section>
         <section class="skills"></section>
         <section class="experiencia"></section>
