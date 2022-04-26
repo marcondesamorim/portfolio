@@ -11,6 +11,7 @@
 
 .apresentacao_conteudo__titulo {
     font-size: 3rem;
+    font-weight: bold;
 }
 
 .apresentacao_conteudo__texto {
@@ -28,7 +29,7 @@
 
 .apresentacao_conteudo__medias ul li a {
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: black;
 }
 
