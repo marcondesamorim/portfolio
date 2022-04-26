@@ -7,7 +7,7 @@
 }
 
 .navegacao_nome__icone {
-    max-height: 1.6rem;
+    max-height: 1rem;
     vertical-align: middle;
 }
 
@@ -19,7 +19,7 @@
 .navegacao_links__link {
     text-decoration: none;
     color: black;
-    font-size: 1.6rem;
+    font-size: 1rem;
     margin-right: 1.5rem;
 }
 

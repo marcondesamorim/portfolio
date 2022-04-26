@@ -10,13 +10,11 @@
 }
 
 .apresentacao_conteudo__titulo {
-    font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .apresentacao_conteudo__texto {
-    font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .apresentacao_conteudo__titulo,
@@ -30,7 +28,7 @@
 
 .apresentacao_conteudo__medias ul li a {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     color: black;
 }
 
@@ -41,6 +39,7 @@
 }
 
 .apresentacao_conteudo__medias ul li img {
+    width: 0.5rem;
     margin-right: 1.5rem;
 }
 
