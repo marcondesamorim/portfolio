@@ -1,9 +1,9 @@
-.skills {
+.hobbies {
     margin: 2rem auto;
     width: var(--largura-home);
 }
 
-.skills_title {
+.hobbies_title {
     text-align: center;
     font-size: 2rem;
     font-style: normal;
@@ -12,7 +12,7 @@
     padding-top: 3rem;
 }
 
-.skills_items {
+.hobbies_items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
 
 }
 
-.skills_items__item {
+.hobbies_items__item {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -35,17 +35,17 @@
     box-shadow: 2px 2px 2px rgb(204 204 204 / 76%);
 }
 
-.skills_items__item:hover {
+.hobbies_items__item:hover {
     transform: scale(1.05, 1.05);
 }
 
 
-.skills_items__item___icon {
+.hobbies_items__item___icon {
     width: 2rem;
     height: 2rem;
 }
 
-.skills_items__item___title {
+.hobbies_items__item___title {
     font-weight: bold;
     margin: .5rem .5rem .5rem 0;
 }

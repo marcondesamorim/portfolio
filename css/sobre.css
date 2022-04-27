@@ -1,7 +1,6 @@
 .sobre {
     margin: 0 auto;
-    background-color: #EAF2FD;
-    /* background-color: #6887b1; */
+    background-color: var(--color-destacado-item);
 }
 
 .sobre_conteudo {
@@ -15,9 +14,12 @@
 
 
 .sobre_conteudo__titulo {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: bold;
 
-    font-size: 1.6rem;
-    font-weight: bold;
+
     margin-bottom: 1.5rem;
 }
 

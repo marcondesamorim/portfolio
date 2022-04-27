@@ -1,6 +1,8 @@
 :root {
     --largura-home: 85%;
     --largura-mobile: 90%;
+
+    --color-destacado-item: rgb(212, 228, 250);
 }
 
 body {
