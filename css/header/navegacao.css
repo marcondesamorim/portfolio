@@ -7,7 +7,7 @@ header {
     top: 0;
 }
 
-.navegacao {
+.container-navegacao {
     display: flex;
     justify-content: space-between;
     width: var(--largura-home);

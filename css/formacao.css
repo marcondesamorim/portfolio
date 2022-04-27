@@ -1,9 +1,9 @@
-.skills {
+.formacao {
     margin: 2rem auto;
     width: var(--largura-home);
 }
 
-.skills_title {
+.formacao_title {
     text-align: center;
     font-size: 2rem;
     font-style: normal;
@@ -12,7 +12,7 @@
     padding-top: 3rem;
 }
 
-.skills_items {
+.formacao_items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -20,7 +20,7 @@
 
 }
 
-.skills_items__item {
+.formacao_items__item {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -35,17 +35,17 @@
     box-shadow: 2px 2px 2px rgb(204 204 204 / 76%);
 }
 
-.skills_items__item:hover {
+.formacao_items__item:hover {
     transform: scale(1.05, 1.05);
 }
 
 
-.skills_items__item___icon {
-    width: 2rem;
-    height: 2rem;
+.formacao_items__item___icon {
+    width: 5rem;
+    height: 5rem;
 }
 
-.skills_items__item___title {
+.formacao_items__item___title {
     font-weight: bold;
     margin: .5rem .5rem .5rem 0;
 }

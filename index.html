@@ -15,11 +15,12 @@
     <link rel="stylesheet" href="./css/sobre.css">
     <link rel="stylesheet" href="./css/skills.css">
     <link rel="stylesheet" href="./css/hobbies.css">
+    <link rel="stylesheet" href="./css/formacao.css">
 </head>
 
 <body>
     <header>
-        <section class="navegacao">
+        <section class="container-navegacao">
             <div class="navegacao_nome">
                 <object data="./assets/images/sparkle24dp.svg" class="navegacao_nome__icone"></object>
                 <span class="navegacao_nome__texto">Marcondes Amorim</span>
@@ -35,7 +36,7 @@
         </section>
     </header>
     <main>
-        <section class="apresentacao">
+        <section class="container-apresentacao">
             <div class="apresentacao_conteudo">
 
                 <h1 class="apresentacao_conteudo__titulo">Olá, meu nome é Marcondes Amorim e sou um escritor de código
@@ -73,7 +74,7 @@
             </div>
             <img class="apresentacao_foto-perfil" src="./assets/images/me.png" alt="foto de marcondes amorim" />
         </section>
-        <section class="sobre">
+        <section class="container-sobre">
             <div class="sobre_conteudo">
                 <h1 class="sobre_conteudo__titulo">Sobre mim</h1>
                 <div class="sobre_conteudo__texto">
@@ -90,63 +91,84 @@
                     alt="assinatura de marcondes">
             </div>
         </section>
-        <section class="skills">
-            <h2 class="skills_title">Skills</h2>
-            <div class="skills_items">
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/html5.svg" alt="">
-                    <p class="skills_items__item___title">Html5</p>
-                </div>
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/css3.svg" alt="">
-                    <p class="skills_items__item___title">CSS3</p>
-                </div>
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/js.svg" alt="">
-                    <p class="skills_items__item___title">Javascript</p>
-                </div>
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/react.svg" alt="">
-                    <p class="skills_items__item___title">React</p>
-                </div>
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/nodejs.svg" alt="">
-                    <p class="skills_items__item___title">NodeJs</p>
-                </div>
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/java.svg" alt="">
-                    <p class="skills_items__item___title">Java</p>
-                </div>
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/springboot.png" alt="">
-                    <p class="skills_items__item___title">Spring Boot</p>
-                </div>
-                <div class="skills_items__item">
-                    <img class="skills_items__item___icon" src="./assets/images/skills/html5.svg" alt="">
-                    <p class="skills_items__item___title">Git</p>
-                </div>
+
+        <section class="container-skills-hobbies">
+            <div class="skills">
+                <h2 class="skills_title">Skills</h2>
+                <ul class="skills_items">
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/html5.svg" alt="">
+                        <p class="skills_items__item___title">Html5</p>
+                    </li>
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/css3.svg" alt="">
+                        <p class="skills_items__item___title">CSS3</p>
+                    </li>
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/js.svg" alt="">
+                        <p class="skills_items__item___title">Javascript</p>
+                    </li>
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/react.svg" alt="">
+                        <p class="skills_items__item___title">React</p>
+                    </li>
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/nodejs.svg" alt="">
+                        <p class="skills_items__item___title">NodeJs</p>
+                    </li>
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/java.svg" alt="">
+                        <p class="skills_items__item___title">Java</p>
+                    </li>
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/springboot.png" alt="">
+                        <p class="skills_items__item___title">Spring Boot</p>
+                    </li>
+                    <li class="skills_items__item">
+                        <img class="skills_items__item___icon" src="./assets/images/skills/html5.svg" alt="">
+                        <p class="skills_items__item___title">Git</p>
+                    </li>
+                </ul>
             </div>
-        </section>
-        <section class="hobbies">
-            <h2 class="hobbies_title">Hobbies</h2>
-            <div class="hobbies_items">
-                <div class="hobbies_items__item">
-                    <img class="hobbies_items__item___icon" src="./assets/images/hobbies/bike.svg" alt="">
-                    <p class="hobbies_items__item___title">Ciclismo</p>
-                </div>
-                <div class="hobbies_items__item">
-                    <img class="hobbies_items__item___icon" src="./assets/images/hobbies/series.svg" alt="">
-                    <p class="hobbies_items__item___title">Séries</p>
-                </div>
-                <div class="hobbies_items__item">
-                    <img class="hobbies_items__item___icon" src="./assets/images/hobbies/cinema.svg" alt="">
-                    <p class="hobbies_items__item___title">Cinema</p>
-                </div>
-                <div class="hobbies_items__item">
-                    <img class="hobbies_items__item___icon" src="./assets/images/hobbies/quadrinhos.svg" alt="">
-                    <p class="hobbies_items__item___title">Quadrinhos</p>
-                </div>
+            <div class="hobbies">
+                <h2 class="hobbies_title">Hobbies</h2>
+                <ul class="hobbies_items">
+                    <li class="hobbies_items__item">
+                        <img class="hobbies_items__item___icon" src="./assets/images/hobbies/bike.svg" alt="">
+                        <p class="hobbies_items__item___title">Ciclismo</p>
+                    </li>
+                    <li class="hobbies_items__item">
+                        <img class="hobbies_items__item___icon" src="./assets/images/hobbies/series.svg" alt="">
+                        <p class="hobbies_items__item___title">Séries</p>
+                    </li>
+                    <li class="hobbies_items__item">
+                        <img class="hobbies_items__item___icon" src="./assets/images/hobbies/cinema.svg" alt="">
+                        <p class="hobbies_items__item___title">Cinema</p>
+                    </li>
+                    <li class="hobbies_items__item">
+                        <img class="hobbies_items__item___icon" src="./assets/images/hobbies/quadrinhos.svg" alt="">
+                        <p class="hobbies_items__item___title">Quadrinhos</p>
+                    </li>
+                </ul>
             </div>
+            <div class="formacao">
+                <h2 class="formacao_title">Formação Acadêmica</h2>
+                <ul class="formacao_items">
+                    <li class="formacao_items__item">
+                        <img class="formacao_items__item___icon" src="./assets/images/formacao/ufcg.jpg" alt="">
+                        <p class="formacao_items__item___title">UFCG</p>
+                    </li>
+                    <li class="formacao_items__item">
+                        <img class="formacao_items__item___icon" src="./assets/images/formacao/unifacisa.webp" alt="">
+                        <p class="formacao_items__item___title">UniFACISA</p>
+                    </li>
+                    <li class="formacao_items__item">
+                        <img class="formacao_items__item___icon" src="./assets/images/formacao/alura.jpg" alt="">
+                        <p class="formacao_items__item___title">Alura</p>
+                    </li>
+                </ul>
+            </div>
+
         </section>
         <section class="experiencia"></section>
         <section class="contato"></section>
