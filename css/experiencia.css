@@ -1,0 +1,54 @@
+.container-experiencias {
+    padding-top: 2.5rem;
+}
+
+.experiencias {
+    margin: 0 auto;
+    width: var(--largura-home);
+}
+
+.experiencias_title {
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: bold;
+}
+
+.experiencias_items__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+}
+
+.experiencias_items__item___titulo {
+    font-weight: 700;
+}
+
+.experiencias_items__item___image {
+    width: 752px;
+    height: 406px;
+}
+
+.experiencias_items__item___descricao {
+    font-weight: 500;
+}
+
+.experiencias_items__item___repositorio {
+    background-color: #F5F5F5;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    width: 116px;
+    height: 51px;
+
+}
+
+.experiencias_items__item___demo {
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border-color: #2A7AE4;
+    width: 105px;
+    height: 51px;
+
+}
