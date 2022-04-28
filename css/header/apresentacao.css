@@ -5,41 +5,41 @@
     width: var(--largura-home);
 }
 
-.apresentacao_conteudo {
+.apresentacao {
     width: 70%;
 }
 
-.apresentacao_conteudo__titulo {
+.apresentacao_titulo {
     font-size: 3rem;
     font-weight: bold;
 }
 
-.apresentacao_conteudo__texto {
+.apresentacao_texto {
     font-size: 1.2rem;
 }
 
-.apresentacao_conteudo__titulo,
-.apresentacao_conteudo__texto {
+.apresentacao_titulo,
+.apresentacao_texto {
     margin-bottom: 1.5rem;
 }
 
-.apresentacao_conteudo__medias {
+.apresentacao_medias {
     display: flex;
 }
 
-.apresentacao_conteudo__medias ul li a {
+.apresentacao_medias ul li a {
     text-decoration: none;
     font-size: 1rem;
     color: black;
 }
 
 
-.apresentacao_conteudo__medias ul li a:hover {
+.apresentacao_medias ul li a:hover {
     font-weight: 700;
     color: #053e8c;
 }
 
-.apresentacao_conteudo__medias ul li img {
+.apresentacao_medias ul li img {
     width: 0.5rem;
     margin-right: 1.5rem;
 }

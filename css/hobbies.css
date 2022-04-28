@@ -1,5 +1,9 @@
+.container-hobbies {
+    padding-top: 2.5rem;
+}
+
 .hobbies {
-    margin: 2rem auto;
+    margin: 0 auto;
     width: var(--largura-home);
 }
 
@@ -9,7 +13,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: bold;
-    padding-top: 3rem;
 }
 
 .hobbies_items {
@@ -27,7 +30,7 @@
     align-items: flex-start;
 
     width: 10rem;
-    height: 10rem;
+    height: 9rem;
     padding: 1rem;
     margin: 2.2rem;
     background-color: white;
