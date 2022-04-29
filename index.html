@@ -8,16 +8,16 @@
     <title>Marcondes Amorim Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/header/navegacao.css" />
-    <link rel="stylesheet" href="./css/header/apresentacao.css" />
-    <link rel="stylesheet" href="./css/sobre.css">
-    <link rel="stylesheet" href="./css/skills.css">
-    <link rel="stylesheet" href="./css/hobbies.css">
-    <link rel="stylesheet" href="./css/formacao.css">
-    <link rel="stylesheet" href="./css/experiencia.css">
-    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/header/navegacao.css" />
+    <link rel="stylesheet" href="./assets/css/header/apresentacao.css" />
+    <link rel="stylesheet" href="./assets/css/sobre.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/hobbies.css">
+    <link rel="stylesheet" href="./assets/css/formacao.css">
+    <link rel="stylesheet" href="./assets/css/experiencia.css">
+    <link rel="stylesheet" href="./assets/css/contato.css">
 </head>
 
 <body>
@@ -383,7 +383,8 @@
             <div class="contato">
                 <img class="contato_imagem" src="./assets/images/contato.png" alt="imagem de um telefone">
                 <fielset>
-                    <form id="form" action="https://formsubmit.co/marcondesjra@gmail.com" method="POST">
+                    <form class="contato_formulario" id="form" action="https://formsubmit.co/marcondesjra@gmail.com"
+                        method="POST">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_next"
                             value="https://marcondesamorim.github.io/portfolio/obrigado.html">
@@ -392,39 +393,40 @@
                         <legend>Quer entrar em contato comigo? <br>
                             Preencha o formulário abaixo que entrarei em contato o mais rápido possível.</legend>
 
-                        <div class="form-control">
-                            <label class="label-nome" for="nome"> Nome</label>
-                            <input type="text" class="input" data-tipo="nome" name="Nome" id="nome" required>
-                            <small class="mensagem-erro">Nome incorreto</small>
-                            <span class="mensagem-valida">O campo nome é válido &checkmark;</span>
+                        <div class="input-container">
+                            <input class="input" name="nome" id="nome" type="text" placeholder="Nome" data-tipo="nome"
+                                required />
+                            <label class="input-label" for="nome">Nome</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
-                        <div class="form-control">
-                            <label class="label-email" for="email"> E-mail</label>
-                            <input type="email" class="input" data-tipo="email" name="email" id="email" required>
-                            <small class="mensagem-erro">Email incorreto </small>
-                            <span class="mensagem-valida">O email digitado é válido &checkmark;</span>
+                        <div class="input-container">
+                            <input name="email" id="email" class="input" type="email" placeholder="Email"
+                                data-tipo="email" required />
+                            <label class="input-label" for="email">Email</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
-                        <div class="form-control">
-                            <label class="label-assunto" for="assunto"> Assunto</label>
-                            <input type="text" class="input" data-tipo="assunto" name="Assunto" id="assunto" required>
-                            <small class="mensagem-erro">Assunto incorreto</small>
-                            <span class="mensagem-valida">O campo assunto é válido &checkmark;</span>
+                        <div class="input-container">
+                            <input name="assunto" id="assunto" class="input" type="text" placeholder="Assunto"
+                                data-tipo="assunto" required />
+                            <label class="input-label" for="assunto">Assunto</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
-                        <div class="form-control">
-                            <label class="label-mensagem" for="mensagem">Mensagem</label>
-                            <textarea type="text" class="textarea" data-tipo="mensagem" name="Mensagem" cols="80"
-                                rows="7" id="mensagem" required></textarea>
-                            <small class="mensagem-erro">Mensagem incorreta</small>
-                            <span class="mensagem-valida">O campo mensagem é válido &checkmark;</span>
+                        <div class="input-container">
+                            <textarea class="input" name="Mensagem" id="mensagem" type="text" placeholder="Mensagem"
+                                data-tipo="mensagem" cols="80" rows="7" required></textarea>
+                            <label class="input-label textarea-label" for="assunto">Mensagem</label>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
                         </div>
                         <div class="form-control">
                             <label for="botao"></label>
-                            <button type="submit" id="botao" value="Enviar Mensagem">Enviar Mensagem</button>
+                            <button type="submit" id="btnSubmit" value="Enviar Mensagem" disabled>Enviar
+                                Mensagem</button>
                         </div>
                     </form>
                 </fielset>
             </div>
         </section>
+        <script type="module" src="./js/app.js"></script>
     </main>
 </body>
 <footer class="rodape"></footer>
