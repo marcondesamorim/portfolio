@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-
 * {
     box-sizing: border-box;
 }
@@ -24,7 +22,7 @@ h2 {
 
 p {
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--fonte-familia-principal);
     margin-top: 1em;
     margin-bottom: 2em;
     font-weight: 600;
@@ -32,10 +30,10 @@ p {
 
 a {
     text-decoration: none;
-    background: #1070f5;
+    background: var(--cor-primaria);
     border-radius: 5px;
     padding: 15px;
-    color: #F5F5F5;
+    color: var(--cor-secundaria);
     font-weight: 600;
     box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.75);
 }

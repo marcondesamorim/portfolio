@@ -1,6 +1,6 @@
 .container-formacao {
     padding: 2.5rem 0;
-    background-color: var(--color-destacado-item);
+    background-color: var(--cor-destacado-item);
 }
 
 
@@ -20,7 +20,7 @@
 .formacao_items {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 
 }
@@ -29,15 +29,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20rem;
-    height: 12rem;
-    background-color: white;
+    width: 25vw;
+    height: 17vw;
+    background-color: var(--cor-secundaria);
     border-radius: 2%;
     box-shadow: 2px 2px 2px rgb(204 204 204 / 76%);
-}
-
-.formacao_items:last-child {
-    margin: 1.5rem 0.5rem;
 }
 
 .formacao_items__item:hover {
@@ -46,15 +42,17 @@
 
 
 .formacao_items__item___icon {
-    width: 8rem;
-    height: 8rem;
+    width: 10vw;
+    height: 10vw;
 }
 
 .formacao_items__item___texto____curso {
     font-weight: 700;
+    font-size: 1.5vw;
     margin-top: .5rem;
 }
 
 .formacao_items__item___texto____formacao {
     font-weight: 500;
+    font-size: 1.5vw;
 }

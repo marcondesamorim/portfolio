@@ -30,13 +30,13 @@
 .apresentacao_medias ul li a {
     text-decoration: none;
     font-size: 1rem;
-    color: black;
+    color: var(--cor-terciaria);
 }
 
 
 .apresentacao_medias ul li a:hover {
     font-weight: 700;
-    color: #053e8c;
+    color: var(--cor-primaria);
 }
 
 .apresentacao_medias ul li img {

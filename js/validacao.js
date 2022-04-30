@@ -3,9 +3,8 @@ const tiposDeErro = [
     "typeMismatch",
 ];
 
+const inputs = document.querySelectorAll("input, textarea");
 const btnSubmit = document.getElementById("btnSubmit");
-
-
 
 const mensagensDeErro = {
     nome: {
@@ -48,5 +47,17 @@ export function valida(input) {
         input.parentElement.querySelector(".input-mensagem-erro").innerHTML =
             mostraMensagemDeErro(tipoDeInput, input);
     }
+    btnSubmit.disabled = false;
+    validaCampos();
+}
+
+function validaCampos() {
+
+    inputs.forEach(input => {
+        if (!input.validity.valid) {
+            btnSubmit.disabled = true;
+        }
+    });
+
 }
 
