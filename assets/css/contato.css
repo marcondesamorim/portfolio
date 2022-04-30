@@ -5,25 +5,31 @@
 
 
 .contato {
-    margin: 0 auto;
+    margin: 3rem auto;
     width: var(--largura-home);
     display: flex;
     justify-content: flex-start;
 }
 
 .contato_imagem {
-    width: 25vw;
-    height: 37vw;
+    width: 30vw;
+    height: 42vw;
 }
 
 .contato_formulario {
     margin: 0 0 0 1rem;
 }
 
+.contato_formulario h3 {
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 1rem;
+}
+
 .contato_formulario_input {
     font-weight: var(--fonte-peso-input);
     position: relative;
-    margin-bottom: 1rem;
+    margin: 1rem 0 1rem 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -97,8 +103,6 @@
     height: 10rem;
     width: 100%;
     resize: none;
-    min-: 3;
-
 }
 
 
@@ -123,4 +127,19 @@
     font-size: 0.875rem;
     top: 0.25rem;
     transition: all 0.25s;
+}
+
+.contato_formulario_btn-submit button {
+    border: 1px solid var(--cor-primaria);
+    background-color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    color: var(--cor-secundaria);
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.contato_formulario_btn-submit button:hover {
+    transform: scale(1.05, 1.05);
 }
