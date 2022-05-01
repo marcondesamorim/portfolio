@@ -1,5 +1,5 @@
 .container-contato {
-    padding: 2.5rem 0;
+    padding: 1.5rem 0;
     background-color: var(--cor-destacado-item);
 }
 
@@ -142,4 +142,14 @@
 
 .contato_formulario_btn-submit button:hover {
     transform: scale(1.05, 1.05);
+}
+
+@media screen and (max-width: 850px) {
+    .contato {
+        width: var(--largura-tablet);
+    }
+
+    .contato_imagem {
+        display: none;
+    }
 }

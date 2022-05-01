@@ -1,5 +1,5 @@
 .container-experiencias {
-    padding-top: 2.5rem;
+    padding: 2.5vw 0;
 }
 
 .experiencias {
@@ -9,7 +9,7 @@
 
 .experiencias_title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.4vw;
     font-style: normal;
     font-weight: 700;
     line-height: bold;
@@ -19,28 +19,34 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 2rem;
+    justify-content: flex-start;
+    margin-top: 2vw;
 }
 
+.experiencias_items__item:nth-child(2n) {
+    flex-direction: row-reverse;
+}
 
 .experiencias_items__item___image {
-    width: 50vw;
-    height: 35vw;
+    width: 50%;
+}
+
+.experiencias_items__item___image {
+    width: 50%;
 }
 
 .experiencias_items__item___detalhes * {
-    margin-bottom: .5rem;
+    padding: .5vw;
 }
 
 .experiencias_items__item___detalhes____titulo {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 .experiencias_items__item___detalhes____descricao {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1vw;
 }
 
 .experiencias_items_item___detalhes____botoes a:hover {
@@ -52,9 +58,9 @@
     text-decoration: none;
     display: inline-block;
     color: var(--cor-primaria);
-    padding: 1rem;
+    padding: 1vw;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1vw;
 }
 
 .experiencias_items__item___detalhes____botoes_____demo {
@@ -63,7 +69,58 @@
     text-decoration: none;
     display: inline-block;
     color: var(--cor-secundaria);
-    padding: 1rem;
+    padding: 1vw;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 850px) {
+    .experiencias {
+        width: var(--largura-tablet);
+    }
+
+    .experiencias_items__item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experiencias_items__item:nth-child(2n) {
+        flex-direction: column;
+    }
+
+    .experiencias_items__item___image {
+        width: 100%;
+    }
+
+    .experiencias_items__item___detalhes____titulo {
+        font-weight: 700;
+        font-size: 2vw;
+    }
+
+    .experiencias_items__item___detalhes____descricao {
+        font-weight: 500;
+        font-size: 1.5vw;
+    }
+
+    .experiencias_items__item___detalhes____botoes_____repositorio {
+        border: 1px solid var(--cor-primaria);
+        text-decoration: none;
+        display: inline-block;
+        color: var(--cor-primaria);
+        padding: 1vw;
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
+    .experiencias_items__item___detalhes____botoes_____demo {
+        border: 1px solid var(--cor-primaria);
+        background-color: var(--cor-primaria);
+        text-decoration: none;
+        display: inline-block;
+        color: var(--cor-secundaria);
+        padding: 1vw;
+        font-weight: 500;
+        font-size: 2vw;
+    }
+
 }

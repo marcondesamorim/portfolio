@@ -1,5 +1,5 @@
 .container-hobbies {
-    padding-top: 2.5rem;
+    padding-bottom: 2.5vw;
 }
 
 .hobbies {
@@ -8,8 +8,9 @@
 }
 
 .hobbies_title {
+    margin: 2.5vw 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.4vw;
     font-style: normal;
     font-weight: 700;
     line-height: bold;
@@ -19,7 +20,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -31,9 +32,9 @@
 
     width: 12vw;
     height: 11vw;
-    padding: 1rem;
-    margin: 2.2rem;
-    background-color: var(--cor-secundaria);
+    padding: 1vw;
+    margin: 1vw;
+    background-color: var(--cor-branco);
     border-radius: 2%;
     box-shadow: 2px 2px 2px rgb(204 204 204 / 76%);
 }
@@ -52,4 +53,10 @@
     font-weight: bold;
     font-size: 1.2vw;
     margin: .5rem .5rem .5rem 0;
+}
+
+@media screen and (max-width: 850px) {
+    .hobbies {
+        width: var(--largura-tablet);
+    }
 }

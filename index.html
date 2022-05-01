@@ -18,22 +18,23 @@
     <link rel="stylesheet" href="./assets/css/formacao.css">
     <link rel="stylesheet" href="./assets/css/experiencia.css">
     <link rel="stylesheet" href="./assets/css/contato.css">
+    <link rel="stylesheet" href="./assets/css/rodape.css">
 </head>
 
 <body>
     <header>
         <section class="container-navegacao">
             <div class="navegacao_nome">
-                <object data="./assets/images/sparkle24dp.svg" class="navegacao_nome__icone"></object>
+                <object class="navegacao_nome__icone" data="./assets/images/sparkle24dp.svg"></object>
                 <span class="navegacao_nome__texto">Marcondes Amorim</span>
             </div>
             <nav class="navegacao_links">
-                <a href="#sobre-mim" class="navegacao_links__link">Sobre Mim</a>
-                <a href="#skills" class="navegacao_links__link">Skills</a>
-                <a href="#hobbies" class="navegacao_links__link">Hobbies</a>
-                <a href="#formacao" class="navegacao_links__link">Formação</a>
-                <a href="#projetos" class="navegacao_links__link">Projetos</a>
-                <a href="mailto:marcondesjra@gmail.com" class="navegacao_links__link">marcondesjra@gmail.com</a>
+                <a class="navegacao_links__link" href="#sobre">Sobre Mim</a>
+                <a class="navegacao_links__link" href="#skills">Skills</a>
+                <a class="navegacao_links__link" href="#hobbies">Hobbies</a>
+                <a class="navegacao_links__link" href="#formacao">Formação</a>
+                <a class="navegacao_links__link" href="#experiencias">Projetos</a>
+                <a class="navegacao_links__link" href="mailto:marcondesjra@gmail.com">marcondesjra@gmail.com</a>
             </nav>
         </section>
     </header>
@@ -76,7 +77,7 @@
             </div>
             <img class="apresentacao_foto-perfil" src="./assets/images/me.png" alt="foto de marcondes amorim" />
         </section>
-        <section class="container-sobre">
+        <section id="sobre" class="container-sobre">
             <div class="sobre">
                 <h1 class="sobre_titulo">Sobre mim</h1>
                 <div class="sobre_texto">
@@ -92,7 +93,7 @@
                 <img class="sobre_assinatura" src="./assets/images/assinatura.png" alt="assinatura de marcondes">
             </div>
         </section>
-        <section class="container-skills-hobbies">
+        <section id="skills" class="container-skills-hobbies-formacao">
             <div class="container-skills">
                 <div class="skills">
                     <h2 class="skills_title">Skills</h2>
@@ -133,6 +134,11 @@
                             <p class="skills_items__item___title">SpringBoot</p>
                         </li>
                         <li class="skills_items__item">
+                            <img class="skills_items__item___icon" src="./assets/images/skills/scrumaster.png"
+                                alt="logo scrumaster">
+                            <p class="skills_items__item___title">Scrum Master</p>
+                        </li>
+                        <li class="skills_items__item">
                             <img class="skills_items__item___icon" src="./assets/images/skills/html5.svg"
                                 alt="logo git">
                             <p class="skills_items__item___title">Git</p>
@@ -145,7 +151,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="container-hobbies">
+            <div id="hobbies" class="container-hobbies">
                 <div class="hobbies">
                     <h2 class="hobbies_title">Hobbies</h2>
                     <ul class="hobbies_items">
@@ -172,7 +178,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="container-formacao">
+            <div id="formacao" class="container-formacao">
                 <div class="formacao">
                     <h2 class="formacao_title">Formação Acadêmica</h2>
                     <div class="formacao_items">
@@ -222,17 +228,14 @@
                 </div>
             </div>
         </section>
-        <section class="container-experiencias">
+        <section id="experiencias" class="container-experiencias">
 
             <div class="experiencias">
                 <h2 class="experiencias_title">Experiência profissional</h2>
                 <div class="experiencias_items">
-
                     <div class="experiencias_items__item">
-                        <div>
-                            <img class="experiencias_items__item___image"
-                                src="./assets/images/experiencias/helpdesk.png" alt="tela da página de helpdesk">
-                        </div>
+                        <img class="experiencias_items__item___image" src="./assets/images/experiencias/helpdesk.png"
+                            alt="tela da página de helpdesk">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Helpdesk</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Formação Angular+SpringBoot
@@ -246,8 +249,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="experiencias_items__item">
+                        <img class="experiencias_items__item___image" src="./assets/images/experiencias/barbershop.png"
+                            alt="tela da página de Barbearia Alura">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Barbearia Alura</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Curso Html Alura</h1>
@@ -260,19 +264,10 @@
                                     demo</a>
                             </div>
                         </div>
-                        <div>
-                            <img class="experiencias_items__item___image"
-                                src="./assets/images/experiencias/barbershop.png"
-                                alt="tela da página de Barbearia Alura">
-                        </div>
                     </div>
-
                     <div class="experiencias_items__item">
-                        <div>
-                            <img class="experiencias_items__item___image"
-                                src="./assets/images/experiencias/jogodaforca.png"
-                                alt="tela da página do Jogo da Forca">
-                        </div>
+                        <img class="experiencias_items__item___image" src="./assets/images/experiencias/jogodaforca.png"
+                            alt="tela da página do Jogo da Forca">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Jogo da Forca</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Challenger Alura One</h1>
@@ -286,8 +281,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="experiencias_items__item">
+                        <img class="experiencias_items__item___image" src="./assets/images/experiencias/fruta-fruto.png"
+                            alt="tela da página do Fruto & Fruta">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Fruta & Fruto</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Curso de Arquitetura Alura One
@@ -300,17 +296,10 @@
                                     href="https://marcondesamorim.github.io/fruta-fruto/" target="_blank">Ver demo</a>
                             </div>
                         </div>
-                        <div>
-                            <img class="experiencias_items__item___image"
-                                src="./assets/images/experiencias/fruta-fruto.png"
-                                alt="tela da página do Fruto & Fruta">
-                        </div>
                     </div>
                     <div class="experiencias_items__item">
-                        <div>
-                            <img class="experiencias_items__item___image"
-                                src="./assets/images/experiencias/apeperia.png" alt="tela da página da Apeperia">
-                        </div>
+                        <img class="experiencias_items__item___image" src="./assets/images/experiencias/apeperia.png"
+                            alt="tela da página da Apeperia">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Apeperia</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Layouts Responsivos Alura One
@@ -323,8 +312,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="experiencias_items__item">
+                        <img class="experiencias_items__item___image"
+                            src="./assets/images/experiencias/codigosecreto.png" alt="tela da página do Código Secreto">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Código Secreto</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Challenger Alura One</h1>
@@ -337,13 +327,7 @@
                                     demo</a>
                             </div>
                         </div>
-                        <div>
-                            <img class="experiencias_items__item___image"
-                                src="./assets/images/experiencias/codigosecreto.png"
-                                alt="tela da página do Código Secreto">
-                        </div>
                     </div>
-
                     <div class="experiencias_items__item">
                         <div>
                             <img class="experiencias_items__item___image"
@@ -362,8 +346,10 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="experiencias_items__item">
+                        <img class="experiencias_items__item___image"
+                            src="./assets/images/experiencias/instagramclone.png"
+                            alt="tela da página de Instagram Clone">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Instagram Clone</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Digital Innovation</h1>
@@ -375,18 +361,10 @@
                                     href="https://marcondesamorim.github.io/instagram-dio/" target="_blank">Ver demo</a>
                             </div>
                         </div>
-                        <div>
-                            <img class="experiencias_items__item___image"
-                                src="./assets/images/experiencias/instagramclone.png"
-                                alt="tela da página de Instagram Clone">
-                        </div>
                     </div>
-
                     <div class="experiencias_items__item">
-                        <div>
-                            <img class="experiencias_items__item___image" src="./assets/images/experiencias/doguito.png"
-                                alt="tela da página da Doguito">
-                        </div>
+                        <img class="experiencias_items__item___image" src="./assets/images/experiencias/doguito.png"
+                            alt="tela da página da Doguito">
                         <div class="experiencias_items__item___detalhes">
                             <h2 class="experiencias_items__item___detalhes____titulo">Doguito PetShop</h2>
                             <h1 class="experiencias_items__item___detalhes____descricao">Validação Formulário Alura ONE
@@ -449,6 +427,8 @@
         <script type="module" src="./js/app.js"></script>
     </main>
 </body>
-<footer class="rodape"></footer>
+<footer class="rodape">
+    <p>&copy Desenvolvido por Marcondes Amorim 2021.</p>
+</footer>
 
 </html>

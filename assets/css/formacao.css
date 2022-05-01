@@ -1,5 +1,5 @@
 .container-formacao {
-    padding: 2.5rem 0;
+    padding: 2.5vw 0;
     background-color: var(--cor-destacado-item);
 }
 
@@ -10,8 +10,9 @@
 }
 
 .formacao_title {
+    margin-bottom: 2vw;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.4vw;
     font-style: normal;
     font-weight: 700;
     line-height: bold;
@@ -49,10 +50,16 @@
 .formacao_items__item___texto____curso {
     font-weight: 700;
     font-size: 1.5vw;
-    margin-top: .5rem;
+    margin-top: .5vw;
 }
 
 .formacao_items__item___texto____formacao {
     font-weight: 500;
     font-size: 1.5vw;
+}
+
+@media screen and (max-width: 850px) {
+    .formacao {
+        width: var(--largura-tablet);
+    }
 }

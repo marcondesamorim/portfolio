@@ -1,5 +1,5 @@
 .container-sobre {
-    padding: 2.5rem 0;
+    padding: 2vw 0;
     background-color: var(--cor-destacado-item);
 }
 
@@ -13,19 +13,31 @@
 
 
 .sobre_titulo {
-    font-size: 2rem;
+    font-size: 2.4vw;
     font-style: normal;
     font-weight: 700;
     line-height: bold;
 }
 
 .sobre_texto {
-    margin-top: 1.5rem;
+    margin-top: 1.5vw;
     width: 70%;
-    font-size: 1rem;
+    font-size: 1.3vw;
     text-align: justify;
 }
 
 .sobre_assinatura {
     width: 7%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .sobre {
+        width: var(--largura-tablet);
+    }
+
+    .sobre_texto {
+        width: 100%;
+    }
+
 }

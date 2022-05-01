@@ -2,7 +2,8 @@
     --fonte-familia-principal: "Raleway", sans-serif;
 
     --largura-home: 85%;
-    --largura-mobile: 90%;
+    --largura-tablet: 90%;
+    --largura-mobile: 95%;
 
     --fonte-peso-input: 300;
     --fonte-tamanho-input-label: 20px;
@@ -10,6 +11,7 @@
     --cor-primaria: #2a7ae4;
     --cor-secundaria: #f5f5f5;
     --cor-terciaria: #000000;
+    --cor-branco: #ffffff;
     --cor-destacado-item: rgb(212, 228, 250);
     --cor-sucesso: #047900;
     --cor-aviso: #df2525;
