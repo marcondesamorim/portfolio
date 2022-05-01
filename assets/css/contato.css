@@ -12,8 +12,11 @@
 }
 
 .contato_imagem {
-    width: 30vw;
-    height: 42vw;
+    position: static;
+    width: 464px;
+    height: 593px;
+    left: 0px;
+    top: 65.5px;
 }
 
 .contato_formulario {
@@ -21,9 +24,18 @@
 }
 
 .contato_formulario h3 {
+    font-style: normal;
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 32px;
+    line-height: 38px;
     margin-bottom: 1rem;
+}
+
+.contato_formulario legend {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .contato_formulario_input {
@@ -147,6 +159,16 @@
 @media screen and (max-width: 850px) {
     .contato {
         width: var(--largura-tablet);
+    }
+
+    .contato_formulario h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .contato_formulario legend {
+        font-size: 16px;
+        line-height: 19px;
     }
 
     .contato_imagem {

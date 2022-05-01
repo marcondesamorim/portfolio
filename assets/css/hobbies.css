@@ -1,39 +1,40 @@
-.container-hobbies {
-    padding-bottom: 2.5vw;
-}
-
 .hobbies {
     margin: 0 auto;
     width: var(--largura-home);
 }
 
 .hobbies_title {
-    margin: 2.5vw 0;
-    text-align: center;
-    font-size: 2.4vw;
     font-style: normal;
     font-weight: 700;
-    line-height: bold;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 2.5vw 0;
 }
 
 .hobbies_items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .hobbies_items__item {
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    padding: 16px;
+    margin-bottom: 2vw;
 
-    width: 12vw;
-    height: 11vw;
-    padding: 1vw;
-    margin: 1vw;
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 384px;
+    top: 0px;
+
     background-color: var(--cor-branco);
     border-radius: 2%;
     box-shadow: 2px 2px 2px rgb(204 204 204 / 76%);
@@ -45,18 +46,53 @@
 
 
 .hobbies_items__item___icon {
-    width: 2vw;
-    height: 2vw;
+    width: 40px;
+    height: 37px;
+    left: 16px;
+    top: 94px;
 }
 
 .hobbies_items__item___title {
-    font-weight: bold;
-    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
     margin: .5rem .5rem .5rem 0;
 }
 
 @media screen and (max-width: 850px) {
     .hobbies {
         width: var(--largura-tablet);
+    }
+
+    .hobbies_title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .hobbies_items__item {
+        width: 224px;
+        height: 118px;
+        left: 480px;
+        top: 0px;
+    }
+
+
+    .hobbies_items__item___title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hobbies {
+        width: var(--largura-mobile);
+    }
+
+    .hobbies_items__item {
+        width: 156px;
+        height: 118px;
+        left: 172px;
+        top: 0px;
     }
 }
