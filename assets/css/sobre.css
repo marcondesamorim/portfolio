@@ -33,7 +33,7 @@
     width: 12%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
 
     .sobre {
         width: var(--largura-tablet);
@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
 
     .sobre {
         width: var(--largura-tablet);

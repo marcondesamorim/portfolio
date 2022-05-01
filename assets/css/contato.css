@@ -175,3 +175,23 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .contato {
+        width: var(--largura-tablet);
+    }
+
+    .contato_formulario h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .contato_formulario legend {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .contato_imagem {
+        display: none;
+    }
+}

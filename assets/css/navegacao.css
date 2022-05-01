@@ -51,7 +51,7 @@ header {
     color: var(--cor-primaria);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
 
     .container-navegacao {
         width: var(--largura-tablet);
@@ -68,7 +68,7 @@ header {
 
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
 
     .container-navegacao {
         width: var(--largura-mobile);
