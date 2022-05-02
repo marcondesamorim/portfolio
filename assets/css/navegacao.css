@@ -1,19 +1,18 @@
-header {
-    z-index: 1;
-    width: 100%;
-    height: 3vw;
+.container-navegacao {
     background-color: var(--cor-secundaria);
     position: fixed;
     top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-.container-navegacao {
+.navegacao {
+
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: var(--largura-home);
-    margin: 0 auto;
-    padding: 1vw 0;
 }
 
 .navegacao_nome__icone {
@@ -57,6 +56,10 @@ header {
         width: var(--largura-tablet);
     }
 
+    .navegacao {
+        margin: 0 auto;
+    }
+
     .navegacao_links__link {
         display: none;
     }
@@ -68,10 +71,37 @@ header {
 
 }
 
+@media screen and (max-width: 550px) {
+
+    .container-navegacao {
+        width: var(--largura-mobile);
+    }
+
+    .navegacao {
+        margin: 0 auto;
+    }
+
+    .navegacao_nome {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .navegacao_nome,
+    .navegacao_links__link {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+
 @media screen and (max-width: 400px) {
 
     .container-navegacao {
         width: var(--largura-mobile);
+    }
+
+    .navegacao {
+        margin: 0 auto;
     }
 
     .navegacao_links__link {
@@ -91,9 +121,5 @@ header {
     .navegacao_links__link {
         font-size: 14px;
         line-height: 16px;
-    }
-
-    .apresentacao_foto-perfil {
-        padding-top: 16px;
     }
 }
