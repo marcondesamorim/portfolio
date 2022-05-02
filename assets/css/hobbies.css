@@ -21,7 +21,6 @@
 }
 
 .hobbies_items__item {
-
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -30,8 +29,9 @@
     margin-bottom: 2vw;
 
     position: static;
-    width: 176px;
-    height: 174px;
+    /* width: 176px;
+    height: 174px; */
+    width: 15%;
     left: 384px;
     top: 0px;
 
